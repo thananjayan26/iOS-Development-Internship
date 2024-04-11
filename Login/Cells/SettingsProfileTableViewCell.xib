@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="SettingsProfileTableViewCell" customModule="Login" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="353" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="353" height="100"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="personPlaceholder" translatesAutoresizingMaskIntoConstraints="NO" id="tj6-oV-TfG">
+                        <rect key="frame" x="12" y="12.666666666666664" width="75" height="75"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="75" id="JQ9-rR-0u8"/>
+                            <constraint firstAttribute="height" constant="75" id="s77-NX-STd"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Michael Scott" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5tw-mI-Ib7">
+                        <rect key="frame" x="99" y="26" width="239" height="27"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="23"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="email ID" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gv5-VI-vbO">
+                        <rect key="frame" x="99" y="57.999999999999993" width="239" height="15.666666666666664"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="tj6-oV-TfG" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="4ex-GV-k31"/>
+                    <constraint firstItem="gv5-VI-vbO" firstAttribute="trailing" secondItem="5tw-mI-Ib7" secondAttribute="trailing" id="Cqc-TD-fEd"/>
+                    <constraint firstItem="5tw-mI-Ib7" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="26" id="LmU-EM-PYy"/>
+                    <constraint firstAttribute="trailing" secondItem="5tw-mI-Ib7" secondAttribute="trailing" constant="15" id="MtE-RL-Fv3"/>
+                    <constraint firstItem="gv5-VI-vbO" firstAttribute="leading" secondItem="5tw-mI-Ib7" secondAttribute="leading" id="ZcL-hv-4mN"/>
+                    <constraint firstItem="gv5-VI-vbO" firstAttribute="top" secondItem="5tw-mI-Ib7" secondAttribute="bottom" constant="5" id="hKW-6I-NHk"/>
+                    <constraint firstItem="tj6-oV-TfG" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="12" id="mnB-u9-AgK"/>
+                    <constraint firstItem="5tw-mI-Ib7" firstAttribute="leading" secondItem="tj6-oV-TfG" secondAttribute="trailing" constant="12" id="omw-Dl-abe"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="emailLabel" destination="gv5-VI-vbO" id="WVS-qG-6Y8"/>
+                <outlet property="nameLabel" destination="5tw-mI-Ib7" id="bJR-uR-PVE"/>
+                <outlet property="profileImageView" destination="tj6-oV-TfG" id="WAb-rm-iDD"/>
+            </connections>
+            <point key="canvasLocation" x="121" y="20"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="personPlaceholder" width="600" height="600"/>
+    </resources>
+</document>

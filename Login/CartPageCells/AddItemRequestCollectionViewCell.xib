@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="AddItemRequestCollectionViewCell" customModule="Login" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="164" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="164" height="44"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add items" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qnV-Az-e74">
+                        <rect key="frame" x="16" y="15.666666666666664" width="65" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" name="AppSecondaryColour"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="plus.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="W7k-mR-YJQ">
+                        <rect key="frame" x="130" y="13.999999999999998" width="22" height="20.666666666666664"/>
+                        <color key="tintColor" name="AppTertiaryColour"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="W7k-mR-YJQ" secondAttribute="height" multiplier="1:1" id="EBq-lO-Utd"/>
+                            <constraint firstAttribute="width" constant="22" id="Olq-qX-i7g"/>
+                        </constraints>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" image="horizontalLine" translatesAutoresizingMaskIntoConstraints="NO" id="ESz-II-yOQ">
+                        <rect key="frame" x="0.0" y="0.0" width="164" height="0.33333333333333331"/>
+                        <color key="tintColor" name="AppTertiaryColour"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="0.29999999999999999" id="pE6-7G-QW1"/>
+                        </constraints>
+                        <preferredSymbolConfiguration key="preferredSymbolConfiguration" weight="ultraLight"/>
+                    </imageView>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="ESz-II-yOQ" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="2YE-MV-8lI"/>
+                <constraint firstItem="ESz-II-yOQ" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="3Cn-AE-d3R"/>
+                <constraint firstAttribute="trailing" secondItem="ESz-II-yOQ" secondAttribute="trailing" id="666-xf-pa4"/>
+                <constraint firstItem="W7k-mR-YJQ" firstAttribute="centerY" secondItem="qnV-Az-e74" secondAttribute="centerY" id="Wdl-br-rya"/>
+                <constraint firstItem="qnV-Az-e74" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" constant="2" id="bl8-lf-nuF"/>
+                <constraint firstItem="qnV-Az-e74" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="16" id="ggn-XQ-otb"/>
+                <constraint firstAttribute="trailing" secondItem="W7k-mR-YJQ" secondAttribute="trailing" constant="12" id="rBp-z3-O3X"/>
+            </constraints>
+            <size key="customSize" width="164" height="172"/>
+            <connections>
+                <outlet property="titleLabel" destination="qnV-Az-e74" id="rIs-tC-Od1"/>
+            </connections>
+            <point key="canvasLocation" x="30.534351145038165" y="52.816901408450704"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="horizontalLine" width="100" height="100"/>
+        <image name="plus.circle" catalog="system" width="128" height="123"/>
+        <namedColor name="AppSecondaryColour">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="AppTertiaryColour">
+            <color red="0.52468909208031944" green="0.52587155131702468" blue="0.54391571969696972" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+    </resources>
+</document>

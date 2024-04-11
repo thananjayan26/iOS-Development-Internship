@@ -1,0 +1,80 @@
+//
+//  FoodPageData.swift
+//  Login
+//
+//  Created by Thananjayan Selvarajan on 27/10/23.
+//
+
+import Foundation
+
+var foodPageData: [FoodPageSection] = [
+    FoodPageSection(title: .ThreeStaticSection("ThreeStaticSection"),
+                    items: [ItemsType.threeStaticCell(data: BasicData(image: "static1", detail: "Offer Zone")),
+                            ItemsType.threeStaticCell(data: BasicData(image: "static3", detail: "gourmet")),
+                            ItemsType.threeStaticCell(data: BasicData(image: "static2", detail: "guiltfree"))]),
+    FoodPageSection(title: .CarouselSection("CarouselSection"),
+                    items: [ItemsType.carouselCell(data: CarouselData(image: "carousel1",cardNum: 0)),
+                            ItemsType.carouselCell(data: CarouselData(image: "carousel2", cardNum: 1)),
+                            ItemsType.carouselCell(data: CarouselData(image: "carousel3", cardNum: 2)),
+                            ItemsType.carouselCell(data: CarouselData(image: "carousel4", cardNum: 3)),
+                            ItemsType.carouselCell(data: CarouselData(image: "carousel5", cardNum: 4)),
+                            ItemsType.carouselCell(data: CarouselData(image: "carousel6", cardNum: 5)),
+                            ItemsType.carouselCell(data: CarouselData(image: "carousel7", cardNum: 6)),
+                            ItemsType.carouselCell(data: CarouselData(image: "carousel8", cardNum: 7))]),
+    FoodPageSection(title: .CarouselPageControlSection("CarouselPageControlSection"),
+                    items: [ItemsType.carouselPageControlCell]),
+    FoodPageSection(title: .CapsuleSection("Your Trusted Picks"),
+                    items: [ItemsType.trustedPicksCapsuleSegment(data: BasicData(image: "", detail: "Get it quickly")),
+                            ItemsType.trustedPicksCapsuleSegment(data: BasicData(image: "", detail: "Roll for you")),
+                            ItemsType.trustedPicksCapsuleSegment(data: BasicData(image: "", detail: "Pure veg")),
+                            ItemsType.trustedPicksCapsuleSegment(data: BasicData(image: "", detail: "Get it quickly")),
+                            ItemsType.trustedPicksCapsuleSegment(data: BasicData(image: "", detail: "Roll for you")),
+                            ItemsType.trustedPicksCapsuleSegment(data: BasicData(image: "", detail: "Pure veg"))]),
+    FoodPageSection(title: .SixRestaurantSection("YourTrustedPicks"),
+                    items: [ItemsType.restaurantThumbnailMiniCell(data: RestaurantData(image: "kfc", name: "KFC", cuisine: "American", rating: 4.1, reviews: 1290, time: 32, distance: 8.2, location: "Tambaram, Chennai", offers: [])),
+                            ItemsType.restaurantThumbnailMiniCell(data: RestaurantData(image: "mcDonalds", name: "McDonalds", cuisine: "American", rating: 4.4, reviews: 290, time: 52, distance: 10.2, location: "Velachery,Chennai", offers: [])),
+                            ItemsType.restaurantThumbnailMiniCell(data: RestaurantData(image: "starbucks", name: "Starbucks", cuisine: "Western", rating: 3.4, reviews: 2990, time: 22, distance: 1.2, location: "Chromepet, Chennai", offers: [])),
+                            ItemsType.restaurantThumbnailMiniCell(data: RestaurantData(image: "dominos", name: "Dominos", cuisine: "Italian", rating: 4.1, reviews: 1290, time: 32, distance: 8.2, location: "Tambaram, Chennai", offers: [])),
+                            ItemsType.restaurantThumbnailMiniCell(data: RestaurantData(image: "fiveGuys", name: "Five Guys", cuisine: "Arabian", rating: 4.4, reviews: 290, time: 52, distance: 10.2, location: "Velachery, Chennai", offers: [])),
+                            ItemsType.restaurantThumbnailMiniCell(data: RestaurantData(image: "kobeSizzler", name: "Kobe Sizzlers", cuisine: "Indian", rating: 3.4, reviews: 2990, time: 22, distance: 1.2, location: "Chromepet, Chennai", offers: []))
+                           ]),
+    FoodPageSection(title: .DishTypeSection("User, what's on your mind?"),
+                    items: [ItemsType.dishCell(data: BasicData(image: "NoodleImage", detail: "Noodles")),
+                            ItemsType.dishCell(data: BasicData(image: "SandwichImage", detail: "Sandwiches")),
+                            ItemsType.dishCell(data: BasicData(image: "biriyani", detail: "Biriyani")),
+                            ItemsType.dishCell(data: BasicData(image: "icecream", detail: "Ice Cream")),
+                            ItemsType.dishCell(data: BasicData(image: "pizza", detail: "Pizza")),
+                            ItemsType.dishCell(data: BasicData(image: "burger1", detail: "Burger")),
+                            ItemsType.dishCell(data: BasicData(image: "NoodleImage", detail: "Noodles")),
+                            ItemsType.dishCell(data: BasicData(image: "SandwichImage", detail: "Sandwiches")),
+                            ItemsType.dishCell(data: BasicData(image: "biriyani", detail: "Biriyani")),
+                            ItemsType.dishCell(data: BasicData(image: "icecream", detail: "Ice Cream")),
+                            ItemsType.dishCell(data: BasicData(image: "pizza", detail: "Pizza")),
+                            ItemsType.dishCell(data: BasicData(image: "burger1", detail: "Burger"))]),
+    FoodPageSection(title: .TopRatedNearYouSection("Top rated near you"),
+                    items: [ItemsType.restaurantThumbnailMegaCell(data: RestaurantData(image: "dominos", name: "Dominos", cuisine: "Italian", rating: 4.1, reviews: 1290, time: 32, distance: 8.2, location: "Tambaram, Chennai", offers: [])),
+                            ItemsType.restaurantThumbnailMegaCell(data: RestaurantData(image: "fiveGuys", name: "Five Guys", cuisine: "Arabian", rating: 4.4, reviews: 290, time: 52, distance: 10.2, location: "Velachery, Chennai", offers: [])),
+                            ItemsType.restaurantThumbnailMegaCell(data: RestaurantData(image: "kfc", name: "KFC", cuisine: "American", rating: 4.1, reviews: 1290, time: 32, distance: 8.2, location: "Tambaram, Chennai", offers: [])),
+                            ItemsType.restaurantThumbnailMegaCell(data: RestaurantData(image: "mcDonalds", name: "McDonalds", cuisine: "American", rating: 4.4, reviews: 290, time: 52, distance: 10.2, location: "Velachery,Chennai", offers: [])),
+                            ItemsType.restaurantThumbnailMegaCell(data: RestaurantData(image: "starbucks", name: "Starbucks", cuisine: "Western", rating: 3.4, reviews: 2990, time: 22, distance: 1.2, location: "Chromepet, Chennai", offers: [])),
+                            ItemsType.restaurantThumbnailMegaCell(data: RestaurantData(image: "kobeSizzler", name: "Kobe Sizzlers", cuisine: "Indian", rating: 3.4, reviews: 2990, time: 22, distance: 1.2, location: "Chromepet, Chennai", offers: [])),
+                            ItemsType.restaurantThumbnailMegaCell(data: RestaurantData(image: "dominos", name: "Dominos", cuisine: "Italian", rating: 4.1, reviews: 1290, time: 32, distance: 8.2, location: "Tambaram, Chennai", offers: [])),
+                            ItemsType.restaurantThumbnailMegaCell(data: RestaurantData(image: "fiveGuys", name: "Five Guys", cuisine: "Arabian", rating: 4.4, reviews: 290, time: 52, distance: 10.2, location: "Velachery, Chennai", offers: [])),
+                            ItemsType.restaurantThumbnailMegaCell(data: RestaurantData(image: "kfc", name: "KFC", cuisine: "American", rating: 4.1, reviews: 1290, time: 32, distance: 8.2, location: "Tambaram, Chennai", offers: [])),
+                            ItemsType.restaurantThumbnailMegaCell(data: RestaurantData(image: "mcDonalds", name: "McDonalds", cuisine: "American", rating: 4.4, reviews: 290, time: 52, distance: 10.2, location: "Velachery,Chennai", offers: [])),
+                            ItemsType.restaurantThumbnailMegaCell(data: RestaurantData(image: "starbucks", name: "Starbucks", cuisine: "Western", rating: 3.4, reviews: 2990, time: 22, distance: 1.2, location: "Chromepet, Chennai", offers: [])),
+                            ItemsType.restaurantThumbnailMegaCell(data: RestaurantData(image: "kobeSizzler", name: "Kobe Sizzlers", cuisine: "Indian", rating: 3.4, reviews: 2990, time: 22, distance: 1.2, location: "Chromepet, Chennai", offers: []))
+                           ]),
+    FoodPageSection(title: .CapsuleSection("Quick Picks"),
+                    items: [ItemsType.quickPicksCapsuleSegment(data: BasicData(image: "", detail: "Past week")),
+                            ItemsType.quickPicksCapsuleSegment(data: BasicData(image: "", detail: "Past month")),
+                            ItemsType.quickPicksCapsuleSegment(data: BasicData(image: "", detail: "Past decade"))]),
+    FoodPageSection(title: .SixRestaurantSection("YourTrustedPicks"),
+                    items: [ItemsType.restaurantThumbnailMiniCell(data: RestaurantData(image: "dominos", name: "Dominos", cuisine: "Italian", rating: 4.1, reviews: 1290, time: 32, distance: 8.2, location: "Tambaram, Chennai", offers: [])),
+                            ItemsType.restaurantThumbnailMiniCell(data: RestaurantData(image: "fiveGuys", name: "Five Guys", cuisine: "Arabian", rating: 4.4, reviews: 290, time: 52, distance: 10.2, location: "Velachery, Chennai", offers: [])),
+                            ItemsType.restaurantThumbnailMiniCell(data: RestaurantData(image: "kfc", name: "KFC", cuisine: "American", rating: 4.1, reviews: 1290, time: 32, distance: 8.2, location: "Tambaram, Chennai", offers: [])),
+                            ItemsType.restaurantThumbnailMiniCell(data: RestaurantData(image: "mcDonalds", name: "McDonalds", cuisine: "American", rating: 4.4, reviews: 290, time: 52, distance: 10.2, location: "Velachery,Chennai", offers: [])),
+                            ItemsType.restaurantThumbnailMiniCell(data: RestaurantData(image: "starbucks", name: "Starbucks", cuisine: "Western", rating: 3.4, reviews: 2990, time: 22, distance: 1.2, location: "Chromepet, Chennai", offers: [])),
+                            ItemsType.restaurantThumbnailMiniCell(data: RestaurantData(image: "kobeSizzler", name: "Kobe Sizzlers", cuisine: "Indian", rating: 3.4, reviews: 2990, time: 22, distance: 1.2, location: "Chromepet, Chennai", offers: []))
+                           ])
+]

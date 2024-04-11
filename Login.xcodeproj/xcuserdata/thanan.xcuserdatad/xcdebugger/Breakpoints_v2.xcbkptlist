@@ -1,0 +1,890 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "16DF43E7-F2A6-4F71-BA1F-414F4DDCAF73"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7A8E689B-28B5-483E-B6AF-AD63F6CF49FC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Login/RegisterViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "203"
+            endingLineNumber = "203"
+            landmarkName = "keyboardWillShow(notification:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C6F7AFA0-752F-44A9-BF41-B679B056181E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Login/RegisterViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "214"
+            endingLineNumber = "214"
+            landmarkName = "keyboardWillHide()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "610BFD74-AEA2-45A8-AD8D-D53C27A8A22C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Login/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "textFieldShouldReturn(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "610BFD74-AEA2-45A8-AD8D-D53C27A8A22C - 185416f9a6c5c45"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Login.ViewController.textFieldShouldReturn(__C.UITextField) -&gt; Swift.Bool"
+                  moduleName = "Login"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thanan/Documents/Login/Login/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "610BFD74-AEA2-45A8-AD8D-D53C27A8A22C - 185416f9a6c5f87"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Login.ViewController.textFieldShouldReturn(__C.UITextField) -&gt; Swift.Bool"
+                  moduleName = "Login"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thanan/Documents/Login/Login/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "36">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3EFF52CE-5558-45AF-AD56-88DC36B5301B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Login/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "92"
+            endingLineNumber = "92"
+            landmarkName = "registerBtnAction(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3EFF52CE-5558-45AF-AD56-88DC36B5301B - 83520a8df153bf40"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Login.ViewController.registerBtnAction(__C.UIButton) -&gt; ()"
+                  moduleName = "Login"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thanan/Documents/Login/Login/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "90"
+                  endingLineNumber = "90"
+                  offsetFromSymbolStart = "568">
+               </Location>
+               <Location
+                  uuid = "3EFF52CE-5558-45AF-AD56-88DC36B5301B - 83520a8df153bf23"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Login.ViewController.registerBtnAction(__C.UIButton) -&gt; ()"
+                  moduleName = "Login"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thanan/Documents/Login/Login/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "91"
+                  endingLineNumber = "91"
+                  offsetFromSymbolStart = "568">
+               </Location>
+               <Location
+                  uuid = "3EFF52CE-5558-45AF-AD56-88DC36B5301B - 83520a8df153bf40"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Login.ViewController.registerBtnAction(__C.UIButton) -&gt; ()"
+                  moduleName = "Login"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thanan/Documents/Login/Login/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "90"
+                  endingLineNumber = "90"
+                  offsetFromSymbolStart = "452">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "99E896FC-F276-4781-883B-9487A292EA0E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Login/RegisterViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "148"
+            endingLineNumber = "148"
+            landmarkName = "registerBtnAction(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D3428210-D1B8-44D5-A714-C3039000F731"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Login/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "128"
+            endingLineNumber = "128"
+            landmarkName = "emailCarry(email:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7B323378-E454-4498-906A-561F1C096626"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Login/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EE002D23-32DB-4A2C-A44B-4C914E7AD99F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Login/DishDetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "viewWillAppear(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0B228A4B-B5B3-4850-8EDF-13AB0D5441CB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Login/DishDetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "viewWillAppear(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "19FA4DD0-6332-4E54-A5E0-8878EE0F935A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Login/DishDetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "DishDetailViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "19FA4DD0-6332-4E54-A5E0-8878EE0F935A - 181e14b0438d06e4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Login.DishDetailViewController.viewIsAppearing(Swift.Bool) -&gt; ()"
+                  moduleName = "Login"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thanan/Documents/Login/Login/DishDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "128">
+               </Location>
+               <Location
+                  uuid = "19FA4DD0-6332-4E54-A5E0-8878EE0F935A - 181e14b0438d0726"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Login.DishDetailViewController.viewIsAppearing(Swift.Bool) -&gt; ()"
+                  moduleName = "Login"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thanan/Documents/Login/Login/DishDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "128">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E5855B11-AE2B-45AE-876E-B820AB39239F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Login/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
+            landmarkName = "registerBtnAction(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E8BA9940-60CD-42F1-9394-E8178992313C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Login/Views/CollectionHomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "93"
+            endingLineNumber = "93"
+            landmarkName = "CollectionHomeViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "E8BA9940-60CD-42F1-9394-E8178992313C - e88f4b225e6aee03"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Login.CollectionHomeViewController.getDishes() -&gt; ()"
+                  moduleName = "Login"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thanan/Documents/Login/Login/Views/CollectionHomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "1228">
+               </Location>
+               <Location
+                  uuid = "E8BA9940-60CD-42F1-9394-E8178992313C - e88f4b225e6aee24"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Login.CollectionHomeViewController.getDishes() -&gt; ()"
+                  moduleName = "Login"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thanan/Documents/Login/Login/Views/CollectionHomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "1044">
+               </Location>
+               <Location
+                  uuid = "E8BA9940-60CD-42F1-9394-E8178992313C - e88f4b225e6aee24"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Login.CollectionHomeViewController.getDishes() -&gt; ()"
+                  moduleName = "Login"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thanan/Documents/Login/Login/Views/CollectionHomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "1128">
+               </Location>
+               <Location
+                  uuid = "E8BA9940-60CD-42F1-9394-E8178992313C - f2a14113c690626f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Login.CollectionHomeViewController.getDishes(completed: () -&gt; ()) -&gt; ()"
+                  moduleName = "Login"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thanan/Documents/Login/Login/Views/CollectionHomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "1584">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "774608DB-206A-4EE7-8808-B5D2F6F3C7D1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Login/Views/CollectionHomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "CollectionHomeViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8120ABD2-4A30-4E92-948E-7437E133B0E6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Login/Views/CollectionHomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "86"
+            endingLineNumber = "86"
+            landmarkName = "CollectionHomeViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "8120ABD2-4A30-4E92-948E-7437E133B0E6 - 1219890d774fb00f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Login.CollectionHomeViewController.getDishes() -&gt; ()"
+                  moduleName = "Login"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thanan/Documents/Login/Login/Views/CollectionHomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "800">
+               </Location>
+               <Location
+                  uuid = "8120ABD2-4A30-4E92-948E-7437E133B0E6 - e88f4b225e6ae13b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Login.CollectionHomeViewController.getDishes() -&gt; ()"
+                  moduleName = "Login"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thanan/Documents/Login/Login/Views/CollectionHomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "204">
+               </Location>
+               <Location
+                  uuid = "8120ABD2-4A30-4E92-948E-7437E133B0E6 - 1770e0423b5d1346"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Login.CollectionHomeViewController.getDishes(completed: () -&gt; ()) -&gt; ()"
+                  moduleName = "Login"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thanan/Documents/Login/Login/Views/CollectionHomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "864">
+               </Location>
+               <Location
+                  uuid = "8120ABD2-4A30-4E92-948E-7437E133B0E6 - f2a14113c6906d15"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Login.CollectionHomeViewController.getDishes(completed: () -&gt; ()) -&gt; ()"
+                  moduleName = "Login"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thanan/Documents/Login/Login/Views/CollectionHomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "404">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9EBAE430-2826-401B-A553-B26321BDED45"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Login/Views/CollectionHomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "94"
+            endingLineNumber = "94"
+            landmarkName = "CollectionHomeViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0BDB4D81-8355-49A6-8E03-17ABAC04C914"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Login/Views/CollectionHomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "viewWillAppear(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0BDB4D81-8355-49A6-8E03-17ABAC04C914 - 6b019de3dbe6b0b0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in Login.CollectionHomeViewController.viewWillAppear(Swift.Bool) -&gt; ()"
+                  moduleName = "Login"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thanan/Documents/Login/Login/Views/CollectionHomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "0BDB4D81-8355-49A6-8E03-17ABAC04C914 - b743aa91aab229e9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Login.CollectionHomeViewController.viewWillAppear(Swift.Bool) -&gt; ()"
+                  moduleName = "Login"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thanan/Documents/Login/Login/Views/CollectionHomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "44">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BD35474E-C0E0-4667-A868-A0531EB5D68F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Login/APICall.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "getDishes(method:url:completionHandler:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BD35474E-C0E0-4667-A868-A0531EB5D68F - 201e890a84c286b8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Login.APICall.getDishes(url: Swift.String, completed: (Foundation.Data) -&gt; ()) -&gt; ()"
+                  moduleName = "Login"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thanan/Documents/Login/Login/APICall.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "128">
+               </Location>
+               <Location
+                  uuid = "BD35474E-C0E0-4667-A868-A0531EB5D68F - 90d48e3e53ae683c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Login.APICall.getDishes(method: Login.HTTPMethod, url: Swift.String, completed: (Foundation.Data) -&gt; ()) -&gt; ()"
+                  moduleName = "Login"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thanan/Documents/Login/Login/APICall.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "128">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9F818DA2-2CA2-4008-A676-79A1948B1C8A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Login/Views/CollectionHomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "viewWillAppear(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9F818DA2-2CA2-4008-A676-79A1948B1C8A - 4cb9c1bcf77822ec"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Foundation.Data) -&gt; () in Login.CollectionHomeViewController.viewWillAppear(Swift.Bool) -&gt; ()"
+                  moduleName = "Login"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thanan/Documents/Login/Login/Views/CollectionHomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "180">
+               </Location>
+               <Location
+                  uuid = "9F818DA2-2CA2-4008-A676-79A1948B1C8A - 4cb9c1bcf77822ec"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Foundation.Data) -&gt; () in Login.CollectionHomeViewController.viewWillAppear(Swift.Bool) -&gt; ()"
+                  moduleName = "Login"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thanan/Documents/Login/Login/Views/CollectionHomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "288">
+               </Location>
+               <Location
+                  uuid = "9F818DA2-2CA2-4008-A676-79A1948B1C8A - 4cb9c1bcf77822ec"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Foundation.Data) -&gt; () in Login.CollectionHomeViewController.viewWillAppear(Swift.Bool) -&gt; ()"
+                  moduleName = "Login"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thanan/Documents/Login/Login/Views/CollectionHomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "144">
+               </Location>
+               <Location
+                  uuid = "9F818DA2-2CA2-4008-A676-79A1948B1C8A - b743aa91aab22ed1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Login.CollectionHomeViewController.viewWillAppear(Swift.Bool) -&gt; ()"
+                  moduleName = "Login"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thanan/Documents/Login/Login/Views/CollectionHomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FCBADE10-092A-401B-9C5D-8F0DBB21D5C2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Login/Views/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "161"
+            endingLineNumber = "161"
+            landmarkName = "loginBtnAction(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "FCBADE10-092A-401B-9C5D-8F0DBB21D5C2 - 56ca2bab69f964bd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Login.ViewController.loginBtnAction(Any) -&gt; ()"
+                  moduleName = "Login"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thanan/Documents/Login/Login/Views/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "147"
+                  endingLineNumber = "147"
+                  offsetFromSymbolStart = "2044">
+               </Location>
+               <Location
+                  uuid = "FCBADE10-092A-401B-9C5D-8F0DBB21D5C2 - 56ca2bab69f9647f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Login.ViewController.loginBtnAction(Any) -&gt; ()"
+                  moduleName = "Login"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thanan/Documents/Login/Login/Views/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "149"
+                  endingLineNumber = "149"
+                  offsetFromSymbolStart = "2140">
+               </Location>
+               <Location
+                  uuid = "FCBADE10-092A-401B-9C5D-8F0DBB21D5C2 - 56ca2bab69f9628d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Login.ViewController.loginBtnAction(Any) -&gt; ()"
+                  moduleName = "Login"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thanan/Documents/Login/Login/Views/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "163"
+                  endingLineNumber = "163"
+                  offsetFromSymbolStart = "2420">
+               </Location>
+               <Location
+                  uuid = "FCBADE10-092A-401B-9C5D-8F0DBB21D5C2 - 56ca2bab69f9626e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Login.ViewController.loginBtnAction(Any) -&gt; ()"
+                  moduleName = "Login"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thanan/Documents/Login/Login/Views/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "164"
+                  endingLineNumber = "164"
+                  offsetFromSymbolStart = "2440">
+               </Location>
+               <Location
+                  uuid = "FCBADE10-092A-401B-9C5D-8F0DBB21D5C2 - 56ca2bab69f963ea"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Login.ViewController.loginBtnAction(Any) -&gt; ()"
+                  moduleName = "Login"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thanan/Documents/Login/Login/Views/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "168"
+                  endingLineNumber = "168"
+                  offsetFromSymbolStart = "2440">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "12E28AE6-0D42-4249-B60E-2BEE7CE4D83F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Login/Views/ProfileViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "onLogOutButtonClicked(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5FB65BBC-9EFE-46C5-AC34-9D0027608223"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Login/Views/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "viewWillAppear(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "91A3B923-88E1-472C-B5DC-EC1A976F970C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Login/APICall.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "getDishes(method:url:completionHandler:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "91A3B923-88E1-472C-B5DC-EC1A976F970C - 47cbfbc8737d4067"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Login.APICall.getDishes(method: Login.HTTPMethod, url: Swift.String, completionHandler: (Swift.Result&lt;Foundation.Data, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Login"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thanan/Documents/Login/Login/APICall.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "240">
+               </Location>
+               <Location
+                  uuid = "91A3B923-88E1-472C-B5DC-EC1A976F970C - 47cbfbc8737d4067"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Login.APICall.getDishes(method: Login.HTTPMethod, url: Swift.String, completionHandler: (Swift.Result&lt;Foundation.Data, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Login"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thanan/Documents/Login/Login/APICall.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "280">
+               </Location>
+               <Location
+                  uuid = "91A3B923-88E1-472C-B5DC-EC1A976F970C - 3c5ff6ec04891148"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Login.APICall.getDishes(method: Login.HTTPMethod, url: Swift.String, completionHandler: (Swift.Result&lt;Foundation.Data, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Login"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thanan/Downloads/Login1/Login/APICall.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "280">
+               </Location>
+               <Location
+                  uuid = "91A3B923-88E1-472C-B5DC-EC1A976F970C - 3c5ff6ec04891148"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Login.APICall.getDishes(method: Login.HTTPMethod, url: Swift.String, completionHandler: (Swift.Result&lt;Foundation.Data, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Login"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thanan/Downloads/Login1/Login/APICall.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "240">
+               </Location>
+               <Location
+                  uuid = "91A3B923-88E1-472C-B5DC-EC1A976F970C - aa1f5bfaa96984b1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Login.APICall.getDishes(method: Login.HTTPMethod, url: Swift.String, completionHandler: (Swift.Result&lt;Foundation.Data, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Login"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thanan/Documents/Login1/Login/APICall.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "280">
+               </Location>
+               <Location
+                  uuid = "91A3B923-88E1-472C-B5DC-EC1A976F970C - aa1f5bfaa96984b1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Login.APICall.getDishes(method: Login.HTTPMethod, url: Swift.String, completionHandler: (Swift.Result&lt;Foundation.Data, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Login"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thanan/Documents/Login1/Login/APICall.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "240">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

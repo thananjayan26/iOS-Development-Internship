@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="QuickPicksCapsuleCollectionViewCell" customModule="Login" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="243" height="122"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="243" height="122"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eSp-LJ-odr">
+                        <rect key="frame" x="0.0" y="0.0" width="243" height="122"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HiF-QW-zYB">
+                                <rect key="frame" x="12" y="6" width="219" height="110"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="HiF-QW-zYB" secondAttribute="bottom" constant="6" id="0et-UZ-vYN"/>
+                            <constraint firstAttribute="trailing" secondItem="HiF-QW-zYB" secondAttribute="trailing" constant="12" id="C4J-OQ-hBs"/>
+                            <constraint firstItem="HiF-QW-zYB" firstAttribute="top" secondItem="eSp-LJ-odr" secondAttribute="top" constant="6" id="h9X-K7-rU9"/>
+                            <constraint firstItem="HiF-QW-zYB" firstAttribute="leading" secondItem="eSp-LJ-odr" secondAttribute="leading" constant="12" id="m50-6B-10t"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="eSp-LJ-odr" secondAttribute="trailing" id="5pj-gY-Sho"/>
+                <constraint firstAttribute="bottom" secondItem="eSp-LJ-odr" secondAttribute="bottom" id="W9y-cE-m8f"/>
+                <constraint firstItem="eSp-LJ-odr" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="doQ-EF-jRL"/>
+                <constraint firstItem="eSp-LJ-odr" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="nu5-GJ-Fwe"/>
+            </constraints>
+            <size key="customSize" width="243" height="122"/>
+            <connections>
+                <outlet property="capsuleBackgroundView" destination="eSp-LJ-odr" id="rBP-CN-Wgc"/>
+                <outlet property="capsuleLabel" destination="HiF-QW-zYB" id="Hdv-d3-DUa"/>
+            </connections>
+            <point key="canvasLocation" x="95.419847328244273" y="44.366197183098592"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

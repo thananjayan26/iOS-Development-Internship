@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="CarouselPageControlCollectionViewCell" customModule="Login" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="276" height="70"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="276" height="70"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="RDY-G2-u5v">
+                        <rect key="frame" x="80" y="0.0" width="116" height="70"/>
+                        <color key="pageIndicatorTintColor" name="AppQuartColour"/>
+                        <color key="currentPageIndicatorTintColor" name="AppSecondaryColour"/>
+                    </pageControl>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="RDY-G2-u5v" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="LBd-ZA-16y"/>
+                <constraint firstItem="RDY-G2-u5v" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="eVq-gZ-3mw"/>
+                <constraint firstAttribute="bottom" secondItem="RDY-G2-u5v" secondAttribute="bottom" id="yhZ-kq-ykY"/>
+            </constraints>
+            <size key="customSize" width="276" height="70"/>
+            <connections>
+                <outlet property="carouselPageControl" destination="RDY-G2-u5v" id="XH1-NF-Zhv"/>
+            </connections>
+            <point key="canvasLocation" x="244.27480916030532" y="27.464788732394368"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <namedColor name="AppQuartColour">
+            <color red="0.92549019607843142" green="0.93333333333333335" blue="0.93333333333333335" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <namedColor name="AppSecondaryColour">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
